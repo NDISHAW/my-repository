@@ -115,3 +115,30 @@ body {
 #ibrah {
     height:10vh;
 }
+
+.description h2 {
+color: #57ca1d;
+}
+span::before {
+    content: '';
+    font-size: xx-large;
+    animation: title infinite 15s;
+}
+@keyframes title {
+    0% {
+        content: 'FULL-STACK DEVELOPER';
+        text-decoration: none;
+    }
+    25% {
+        content: 'Front-End Developer';
+        color: #black;
+        text-decoration: none;
+    }
+    50% {
+        content: 'Back-End Developer';
+        text-decoration: none;
+    }
+    75% {
+        content: 'Project Management';
+        text-decoration: none;
+    
