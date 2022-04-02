@@ -115,10 +115,6 @@ body {
 #ibrah {
     height:10vh;
 }
-
-.description h2 {
-color: #57ca1d;
-}
 span::before {
     content: '';
     font-size: xx-large;
@@ -141,4 +137,5 @@ span::before {
     75% {
         content: 'Project Management';
         text-decoration: none;
-    
+    }
+}
